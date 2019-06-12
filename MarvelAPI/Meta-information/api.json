@@ -1,0 +1,22 @@
+{
+  "id": {
+    "providerName": "admin",
+    "apiName": "MarvelAPI",
+    "version": "1.0.0"
+  },
+  "type": "HTTP",
+  "context": "/marvel/1.0.0",
+  "contextTemplate": "/marvel/{version}",
+  "tags": [],
+  "availableTiers": [
+    {
+      "name": "Unlimited"
+    }
+  ],
+  "uriTemplates": [],
+  "status": "PUBLISHED",
+  "visibility": "public",
+  "transports": "http,https",
+  "endpointConfig": "{\"production_endpoints\":{\"url\":\"http://localhost:8080\", \"config\":\"null\"}, \"endpoint_type\":\"http\"}",
+  "implementation": "ENDPOINT"
+}
