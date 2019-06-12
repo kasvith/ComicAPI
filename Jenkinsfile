@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         CI = 'true'
-        API = ''
+        API = 'MarvelAPI'
     }
     stages {
         stage('Setup APIM Environments'){
